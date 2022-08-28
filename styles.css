@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Yanone+Kaffeesatz:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    background-color: black;
+    margin-top: 20;
+}
+
+#title {
+    color: white;
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    text-align: right;
+    margin: auto ;
+    margin-top: 100px;
+    margin-left: 1500px;
+    margin-right: 100px;
+    z-index: 100;
+    position: absolute;
+    
+}
+
+@media screen and (max-width: 400px) {
+    #title {
+        margin-left: 1000px;
+    }
+}
+
+span.yellow {
+    color: yellow;
+    font-style: italic;
+}
+
+#img-div {
+    margin-top: -200px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 14vw auto 0 auto;
+}
+
+#caption {
+    color: white;
+    font-family: sans-serif;
+    font-size: 1rem;
+}
+
+div#tribute-info {
+    color: white;
+    font-family: Playfair Display, sans-serif;
+    font-weight: 1;
+    font-size: 1.1rem;
+    margin-top: 0.4px;
+    margin-right: 450px;
+    margin-bottom: 100px;
+    margin-left: 450px;
+    padding-left: 20px;
+}
+
+h1 {
+    color: white;
+    font-family: poppins, sans-serif;
+    font-size: 1rem;
+    margin: 20;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-family: Playfair Display, sans-serif;
+    color: grey;
+    text-align: center;
+}
+
+#tribute-link {
+    color: yellow;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    background: linear-gradient(45deg, black, yellow);
+    padding: 2rem 0;
+}
+
+.wrapper {
+    background: black;
+    padding: 2rem;
+    border-radius: 15px;
+}
+
+h3 {
+    font-size: 2.5rem;
+    font-weight: 1;
+    font-family: Playfair Display, serif;
+    color: grey;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.hover:hover {
+    color: yellow;
+}
+
+.hoverable:hover {
+    color: yellow;
+    font-size: 1.5rem;
+}
+
+.hoverabletwo:hover {
+    color: yellow;
+    font-size: 3rem;
+}
+
+li {
+    padding-bottom: 1.5rem;
+    position: relative;
+    border-left: 1px solid yellow;
+    padding-left: 0px;
+    margin-left: 50px;
+}
+
+.date {
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.6rem;
+    padding-left: 20px;
+}
+
+p {
+    
+}
+
+p {
+    color: white;
+    font-family: Playfair Display, sans-serif;
+    font-weight: 1;
+    font-size: 1.5rem;
+    margin-top: 0.4rem;
+    padding-left: 20px;
+}
+
+.imgtwo {
+    display: inline-block;
+    position: relative;
+    max-width: 29.5%;
+    height: auto;
+    padding: 20 25 40 10;
+    margin: auto;
+    margin-top: -200px;
+    margin-left: 40px;
+}
+
+.imgthree {
+    display: inline-block;
+    position: relative;
+    max-width: 27.5%;
+    height: auto;
+    padding: 20 25 40 10;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: -200px;
+}
+
+.imgfour {
+    display: inline-block;
+    position: relative;
+    max-width: 30%;
+    height: auto;
+    padding: 20 25 40 10;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: -200px;
+}
+
+.imgfive {
+    display: inline-block;
+    position: relative;
+    max-width: 30%;
+    height: auto;
+    padding: 20 25 40 10;
+    margin: auto;
+    margin-top: -100px;
+    margin-left: 20px;
+}
+
+.imgsix {
+    display: inline-block;
+    position: relative;
+    max-width: 32%;
+    height: auto;
+    padding: 20 25 40 10;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: -100px;
+}
+
+.imgseven {
+    display: inline-block;
+    position: relative;
+    max-width: 30%;
+    height: auto;
+    padding: 20 25 40 10;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: -100px;
+}
+
+h4 {
+    font-family: poppins, sans-serif;
+    font-size: 1rem;
+    color: yellow;
+    text-align: center;
+}
+
+.video {
+    margin-left: 50vw;
+    transform: translate(-50%);
+}
